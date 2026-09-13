@@ -781,7 +781,7 @@ class DeploymentPipeline:
         )
 
         lines = [
-            "# 🛡️ NEXUSLEND CHURN PREDICTION PIPELINE",
+            "#  NEXUSLEND CHURN PREDICTION PIPELINE",
             "",
             "## Deployment Overview",
             "",
@@ -803,7 +803,7 @@ class DeploymentPipeline:
             f"**Ethical Constraints:** "
             f"{len(self.ETHICAL_CONSTRAINTS)}",
             "",
-            "## 🚀 Quick Start",
+            "##  Quick Start",
             "",
             "### 1. Install dependencies",
             "",
@@ -827,7 +827,7 @@ class DeploymentPipeline:
             ").load_model()",
             "```",
             "",
-            "## 📋 Input Schema",
+            "##  Input Schema",
             "",
             "| Column | Type | Description |",
             "|---|---|---|",
@@ -866,7 +866,7 @@ class DeploymentPipeline:
             "Ten consecutive prediction failures generate a critical "
             "operational warning.",
             "",
-            "## ⚠️ Critical Ethical Constraints",
+            "##  Critical Ethical Constraints",
             "",
             "- Human review required for debt_to_income > 0.6",
             "- Never deny service based solely on model output",
@@ -901,7 +901,7 @@ class DeploymentPipeline:
             "- PSI 0.10–0.25: moderate drift",
             "- PSI > 0.25: significant drift",
             "",
-            "## 🆘 Failure Modes",
+            "##  Failure Modes",
             "",
             "### Unknown region",
             "",
