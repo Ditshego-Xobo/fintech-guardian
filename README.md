@@ -1,4 +1,4 @@
-# 🛡️ NEXUSLEND CHURN PREDICTION PIPELINE
+#  NEXUSLEND CHURN PREDICTION PIPELINE
 
 ## Deployment Overview
 
@@ -16,7 +16,7 @@ The deployment pipeline validates incoming data, handles unknown categories, pro
 
 **Ethical Constraints:** 3
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install dependencies
 
@@ -40,7 +40,7 @@ pipe = DeploymentPipeline(
 ).load_model()
 ```
 
-## 📋 Input Schema
+##  Input Schema
 
 | Column | Type | Description |
 |---|---|---|
@@ -74,7 +74,7 @@ When activated, safe default predictions are returned instead of continuing with
 
 Ten consecutive prediction failures generate a critical operational warning.
 
-## ⚠️ Critical Ethical Constraints
+##  Critical Ethical Constraints
 
 - Human review required for debt_to_income > 0.6
 - Never deny service based solely on model output
@@ -83,7 +83,7 @@ Ten consecutive prediction failures generate a critical operational warning.
 - Do not exploit financially vulnerable customers.
 - Do not use the model for automatic loan denial.
 
-## 🔍 Monitoring Commands
+##  Monitoring Commands
 
 ### Run the deployment pipeline
 
@@ -109,7 +109,7 @@ PSI interpretation:
 - PSI 0.10–0.25: moderate drift
 - PSI > 0.25: significant drift
 
-## 🆘 Failure Modes
+##  Failure Modes
 
 ### Unknown region
 
